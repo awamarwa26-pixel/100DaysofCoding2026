@@ -15,6 +15,9 @@ public class Main {
         
         // 3. CHAR
         System.out.println("char\t:" + (int)Character.MIN_VALUE + " sampai " + (int)Character.MAX_VALUE);
+        
+        // 4. Boolean
+        System.out.println("Boolean : "+ Boolean.TRUE +" dan "+ Boolean.FALSE);
     
     }
-          }
+                           }
