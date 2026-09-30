@@ -11,10 +11,9 @@ public class Latihanngoding {
         System.out.print("Masukkan Angka kedua \t:");
         int angka2 = marwa.nextInt();
 
-        System.out.println(angka1 + "<" + angka2 + "=" + (angka1 < angka2));
-        System.out.println(angka1 + ">" + angka2 + "=" + (angka1 > angka2));
+        System.out.println(angka1 + " < " + angka2 + " = " + (angka1 < angka2));
+        System.out.println(angka1 + " > " + angka2 + " = " + (angka1 > angka2));
         
-
         marwa.close();
     }
-    }
+}
