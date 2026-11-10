@@ -1,31 +1,20 @@
-
+package Day70;
 import java.util.Scanner;
 
-public class piramida2 {
+public class Day70 {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        System.out.println("input = ");
-        int inp = in.nextInt();
-       
+        Scanner marwa = new Scanner(System.in);
 
-        for (int i = 0; i <= inp; i++) {
+        System.out.print("Masukkan tinggi: ");
+        int n = marwa.nextInt();
+
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("* ");
+            }
             System.out.println();
-            for (int j = 0; j <= inp - i; j++) {
-               System.out.print(" "); 
-  
-            }
-            
-            for (int k = 0; k <= i; k++) {
-                 System.out.print("*"); 
-            }
-            for (int k = 0; k <= i-1; k++) {
-                 System.out.print("*"); 
-            }
-           
         }
-         for (int i = 0; i <= i-1; i++) {
-                 System.out.print("*"); 
-            }
+
         
     }
 }
